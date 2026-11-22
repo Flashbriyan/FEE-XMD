@@ -1,7 +1,7 @@
 import { getGroupSettings, addWarn, resetWarn, getWarnLimit } from '../database/config.js';
 import { resolveTargetJid } from '../lib/lidResolver.js';
 
-const DEV_NUMBER = '255752593977';
+const DEV_NUMBER = '237673616844';
 
 const _num = (jid) => (jid || '').split('@')[0].split(':')[0].replace(/\D/g, '');
 
